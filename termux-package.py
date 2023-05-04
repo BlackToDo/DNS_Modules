@@ -32,11 +32,13 @@ slowprint(''' \033[93m
 [02] pkg install c-ares
 [03] pkg install dns2tcp
 [04] pkg install dnslookup
+
 +-------------2nd Bulk--------------------+
 [05] pkg install dnsmap
 [06] pkg install dnsmasq
 [07] pkg install dnstop
 [08] pkg install dnsutils
+
 +-------------3rd Bulk--------------------+
 [09] pkg install dnsutils-static
 [10] pkg install dog
@@ -44,6 +46,7 @@ slowprint(''' \033[93m
 [12] pkg install haskell-resolv
 [13] pkg install iodine
 [14] pkg install knot-utils
+
 +-------------4th Bulk--------------------+
 [15] pkg install ldns
 [16] pkg install ldns-static
@@ -65,14 +68,16 @@ os.system ("pkg install c-ares")
 os.system ("pkg install dns2tcp")
 os.system ("pkg install dnslookup")
 
-print ("Install Finish 1st Bulk")
+print ("""
+Install Finish 1st Bulk""")
 
 os.system ("pkg install dnsmap")
 os.system ("pkg install dnsmasq")
 os.system ("pkg install dnstop")
 os.system ("pkg install dnsutils")
 
-print ("Install Finish 2nd Bulk")
+print ("""
+Install Finish 2nd Bulk""")
 
 os.system ("pkg install dnsutils-static")
 os.system ("pkg install dog")
@@ -81,7 +86,8 @@ os.system ("pkg install haskell-resolv")
 os.system ("pkg install iodine")
 os.system ("pkg install knot-utils")
 
-print ("Install Finish 3rd Bulk")
+print ("""
+Install Finish 3rd Bulk""")
 
 os.system ("pkg install ldns")
 os.system ("pkg install ldns-static")
@@ -91,7 +97,8 @@ os.system ("pkg install libknot")
 os.system ("pkg install libresolv-wrapper")
 os.system ("pkg install mdns-scan")
 
-print ("Install Finish 4th Bulk")
+print ("""
+Install Finish 4th Bulk""")
 
 os.system ("termux-setup-storage")
   
