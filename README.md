@@ -36,6 +36,9 @@ If you are looking for DNS modules of termux then this is right tool for you. Fo
 This command for access the storage in termux 
 termux-setup-storage.
 
+## Screenshot
+
+![DNS_Modules](https://user-images.githubusercontent.com/54358430/236134792-4ebc780d-0479-4d82-9a48-79d1749ec220.jpg)
 
 ## Installation 
  
