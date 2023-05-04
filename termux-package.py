@@ -21,9 +21,9 @@ def slowprint(s):
 
 print (''' \033[95m
 +--------------------------------------+
-| This Tool Install DNS MODULES |
+| This Tool Install DNS MODULES        |
 +--------------------------------------+
-| Coded By Avishka Dulara|version : 1.0  |
+| Coded By Avishka Dulara|version : 1.0|
 +--------------------------------------+''')
 
 slowprint(''' \033[93m
@@ -68,16 +68,20 @@ os.system ("pkg install c-ares")
 os.system ("pkg install dns2tcp")
 os.system ("pkg install dnslookup")
 
-print ("""
-Install Finish 1st Bulk""")
+slowprint(''' \033[95m
++--------------------------------------+
+| Install Finish 1st Bulk              |
++--------------------------------------+''')
 
 os.system ("pkg install dnsmap")
 os.system ("pkg install dnsmasq")
 os.system ("pkg install dnstop")
 os.system ("pkg install dnsutils")
 
-print ("""
-Install Finish 2nd Bulk""")
+slowprint(''' \033[95m
++--------------------------------------+
+| Install Finish 2nd Bulk              |
++--------------------------------------+''')
 
 os.system ("pkg install dnsutils-static")
 os.system ("pkg install dog")
@@ -86,8 +90,10 @@ os.system ("pkg install haskell-resolv")
 os.system ("pkg install iodine")
 os.system ("pkg install knot-utils")
 
-print ("""
-Install Finish 3rd Bulk""")
+slowprint(''' \033[95m
++--------------------------------------+
+| Install Finish 3rd Bulk              |
++--------------------------------------+''')
 
 os.system ("pkg install ldns")
 os.system ("pkg install ldns-static")
@@ -97,8 +103,10 @@ os.system ("pkg install libknot")
 os.system ("pkg install libresolv-wrapper")
 os.system ("pkg install mdns-scan")
 
-print ("""
-Install Finish 4th Bulk""")
+slowprint(''' \033[95m
++--------------------------------------+
+| Install Finish 4th Bulk              |
++--------------------------------------+''')
 
 os.system ("termux-setup-storage")
   
