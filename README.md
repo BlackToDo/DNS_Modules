@@ -47,7 +47,7 @@ termux-setup-storage.
    $ apt install python 
    ```
    ```
-   $ git clone https://github.com/Avishka890/DNS_Modules.git
+   $ git clone https://github.com/BlackToDo/DNS_Modules.git
    ```
    ```
    $ cd DNS_Modules
