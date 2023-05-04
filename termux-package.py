@@ -27,98 +27,44 @@ print (''' \033[95m
 +--------------------------------------+''')
 
 slowprint(''' \033[93m
-[01] python
-[02] python2
-[03] python-dev
-[04] python3
-[05] php
-[06] java
-[07] git
-[08] perl
-[09] bash
-[10] nano
-[11] curl
-[12] openssl
-[13] openssh
-[14] wget
-[15] clang
-[16] nmap
-[17] w3m
-[18] hydra
-[19] ruby
-[20] macchanger
-[21] host
-[22] dnsutils
-[23] coreutils
-[24] fish
-[25] zip
-[27] tor
-[28] hydra
-[29] figlet 
-[30] cowsay
-[31] tar
-[32] unzip
-[33] vim
-[34] ruby
-[35] wcalc
-[36] bmon
-[37] unrar
-[38] proot
-[39] golang''')
+[01] pkg install avahi
+[02] pkg install c-ares
+[03] pkg install dns2tcp
+[04] pkg install dnslookup
+[05] pkg install dnsmap
+[06] pkg install dnsmasq
+[07] pkg install dnstop
+[08] pkg install dnsutils
+[09] pkg install dnsutils-static
+[10] pkg install dog
+[11] pkg install hash-slinger
+[12] pkg install haskell-resolv
+[13] pkg install iodine
+[14] pkg install knot-utils
+[15] pkg install ldns
+[16] pkg install ldns-static
+[17] pkg install libdns-sd
+[18] pkg install libdns-sd-static
+[19] pkg install libknot
+[20] pkg install libresolv-wrapper
+[21] pkg install mdns-scan''')
 slowprint('''\033[96m
 This Command for access Storage in Termux
 [00] termux-setup-storage''')
 print ("                                            ")
 choice = input("\033[93mDo You Want to Install All Packages [y/n] : ")
 if choice == 'n' : sys.exit()
-if choice == 'y' : os.system ("apt update")
-os.system ("apt upgrade -y")
+if choice == 'y' : os.system ("pkg update")
+os.system ("pkg upgrade -y")
 os.system ("pkg install avahi")
-os.system ("apt install python2 -y")
-os.system ("apt install php -y")
-os.system ("apt install python-dev -y")
-os.system ("apt install python3 -y")
-os.system ("apt install java -y")
-os.system ("apt install git -y")
-os.system ("apt install perl -y")
-os.system ("apt install bash")
-
-print ("wait for second and start hacking")
-
-os.system ("apt install nano -y")
-os.system ("apt install curl -y")
-os.system ("apt install openssl -y")
-os.system ("apt install openssh -y")
-os.system ("apt install wget -y")
-os.system ("apt install clang -y")
-os.system ("apt install nmap -y")
-os.system ("apt install w3m -y")
-os.system ("apt install hydra -y")
-
-
-print ("""
-subscribe Nitro Hacker""")
-
-os.system ("apt install ruby -y")
-os.system ("apt install macchanger -y")
-os.system ("apt install host -y")
-os.system ("apt install dnsutils -y")
-os.system ("apt install coreutils -y")
-os.system ("apt install fish -y")
-os.system ("apt install zip -y")
-os.system ("apt install hydra -y")
-os.system ("apt install figlet -y")
-os.system ("apt install cowsay -y")
-os.system ("apt install unzip -y")
-os.system ("apt install vim -y")
-os.system ("apt install ruby -y")
-os.system ("apt install wcalc -y")
-os.system ("apt install bmon -y")
-os.system ("apt install unrar -y")
-os.system ("apt install proot -y")
-os.system ("apt install golang -y")
-print ("Allow the Button For Access the Storage in Termux")
-
+os.system ("pkg install c-ares")
+os.system ("pkg install dns2tcp")
+os.system ("pkg install dnslookup")
+os.system ("pkg install dnsmap")
+os.system ("pkg install dnstop")
+os.system ("pkg install dnsutils")
+os.system ("pkg install dnsutils-static")
+os.system ("pkg install dog")
 
 os.system ("termux-setup-storage")
   
