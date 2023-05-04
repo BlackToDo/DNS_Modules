@@ -11,7 +11,7 @@ print('''\033[91m
     | | | _||   / |\/| | |_| |>  <  |  _/ _ \ (__| ' <  / _ \ (_ | _| 
     |_| |___|_|_\_|  |_|\___//_/\_\ |_|/_/ \_\___|_|\_\/_/ \_\___|___|                                                                       
                                                                                                                                                                                                                               
-CREATED BY NITRO HACKER
+CREATED BY Black To Do - https://github.com/BlackToDo/DNS_Modules.git
 ''')
 def slowprint(s):
     for c in s + '\n' :
@@ -23,7 +23,7 @@ print (''' \033[95m
 +--------------------------------------+
 | This Tool Install DNS MODULES        |
 +--------------------------------------+
-| Coded By Avishka Dulara|version : 1.0|
+| Coded By Black To Do|version : 1.0|
 +--------------------------------------+''')
 
 slowprint(''' \033[93m
@@ -115,10 +115,11 @@ def slowprint(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(8. / 100)
-print("\033[95m+-------------------------------------------------+")
-slowprint('''\033[95m|             Welcome,           |
-|           Install Finished         |''')
-print("+-------------------------------------------------+")
+print("\033[95m+--------------------------------------------------+")
+slowprint('''\033[95m|             Welcome, Black To Do           |
+|                        Install Finished                         |
+|             Thank You - https://github.com/BlackToDo            |''')
+print("+----------------------------------------------------------+")
 
 
 input("\n\nPress the enter key to exit : ")
